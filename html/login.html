@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/login.css" />
+</head>
+
+<body class="login-body">
+
+    <div class="login-main">
+       <h1>財團法人臺北市都市更新推廣中心</h1>
+       <div class="login-area">
+           <h2 class="title">採購系統</h2>
+           <div class="login-form">
+               <!--錯誤的項目請在form-group上添加has-error的class-->
+               <!--
+               <div class="form-group">
+                    <label for="">帳號</label>
+                    <input type="text">
+                    <p class="error-info">帳號有誤</p>
+               </div>
+               -->
+                <div class="form-group has-error">
+                    <label for="">帳號</label>
+                    <input type="text">
+                    <p class="error-info">帳號格式有誤</p>
+                </div>
+                <div class="form-group">
+                    <label for="">密碼</label>
+                    <input type="password">
+                    <p class="error-info">密碼有誤</p>
+                </div>
+                <div class="form-group">
+                    <label for="">驗證碼</label>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text">
+                            <p class="error-info">驗證碼錯誤請重新輸入</p>
+                        </div>
+                        <div class="col-auto">
+                            <img alt="驗證碼圖片" src="images/img.png">
+                            <a href="#" class="href-reload"><img src="images/reload.svg">換一張</a>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
+                <button class="btn btn-send">確定送出</button>
+                <a href="#"  class="forget-pw">忘記密碼？</a>
+           </div>
+       </div>
+    </div>
+
+    <footer>
+        <span class="text-main">財團法人臺北市都市更新推動中心</span><br>
+        地址：臺北市中山區松江路223號10樓<br>
+        建議最佳瀏覽環境：Chrome 62 以上版本、Firefox 56 以上版本、Microsoft Edge
+    </footer>
+
+    
+</body>
+
+</html>
